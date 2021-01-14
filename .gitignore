@@ -4,6 +4,8 @@
 
 corpora/
 burocracy/
+fine-tuning/*
+!fine-tuning/*.ipynb
 
 ###############
 # Python Ignore
