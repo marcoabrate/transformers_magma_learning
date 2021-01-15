@@ -5,6 +5,8 @@
 corpora/
 burocracy/
 fine-tuning/*
+datasets/*
+!datasets/*.ipynb
 !fine-tuning/*.ipynb
 
 ###############
