@@ -37,5 +37,7 @@ ROUGE_TYPES = ['rouge1', 'rouge2', 'rougeL']
 # assign the bullets based on this ROUGE type (1, 2, or L)
 ROUGE_TYPE_RECALL = 'rougeL_recall'
 
+MAGMA_DIR = '/home/marco/epfl/magma/'
+
 # Datasets path
-DATASET_PATH =  '/content/drive/My Drive/MAGMA: Summarization/datasets/'
+DATASET_PATH =  MAGMA_DIR+'datasets/'
