@@ -8,9 +8,13 @@ get_cpts = lambda df, bid:\
 
 get_bullets = lambda df, bid, cpt: df.loc[bid, cpt].bullets[0]
 
+TOKEN_MAX_LEN = 45              # max length of a word
+
+PARA_MIN_LEN = 2                # minimum length for a sentence/paragraph
+
 REPLACE_ABBR = False            # set to True to replace abbreviations
 
-SPECIAL_CHAR_FILE = '/content/drive/My Drive/MAGMA: Summarization/special_char_file.txt'
+SPECIAL_CHAR_FILE = '/home/marco/epfl/magma/special_char_file.txt'
 
 REMOVE_PAR = False              # set to True to remove text between parentheses
 
